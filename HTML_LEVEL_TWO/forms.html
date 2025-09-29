@@ -4,17 +4,38 @@
     <meta charset="utf-8">
     <title>Forms Basic</title>
   </head>
-  <body>
-    <!-- <form>
+  <body style="background-color:black; color:white;">
+    <form>
       <h1>Log In</h1>
       <h2>Please Input your Email and Password</h2>
-      <input type="email" name="emailinput" value="Type a valid Email">
+      <input type="email" name="emailinput" value="" placeholder="Type a valid Email" required>
       <input type="password" name="passwordinput" value="">
       <input type="submit" name="" value="Save">
-    </form> -->
+    </form>
     <form>
       <h1>Choose your Color!</h1>
       <input type="color" name="" value="">
+    </form>
+    <h1>Submit and Actions in Forms</h1>
+    <form action="https://www.facebook.com">
+      <p>Enter Text: </p>
+      <input type="email" name="email" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+    <h1>Label Individual:</h1>
+    <form>
+        <h2></h2>
+        <label for="">Enter some text:
+          <input type="text" name="" value="">
+        </label>
+        <label for="">Enter description:
+          <input type="text" name="" value="">
+        </label>
+    </form>
+    <h1>Label for parameters</h1>
+    <form class="" action="index.html" method="post">
+      <label for="userinput">Enter input</label>
+      <input id="userinput" type="text" name="" value="" placeholder="Hello!">
     </form>
   </body>
 </html>

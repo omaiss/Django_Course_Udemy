@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body style="background-color:black; color:white; font-family:Sans-serif">
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+      <h3>Are you a foreigner or local?</h3>
+      <label for="tourist">Foreigner</label>
+      <input id="tourist" type="radio" name="loc" value="Foreigner">
+      <label for="local">Local</label>
+      <input id="local" type="radio" name="loc" value="Local">
+
+      <h3>Rate the service (*)?</h3>
+      <select class="" name="stars">
+        <option value="Bad!">1</option>
+        <option value="Good!">2</option>
+        <option value="Amazing!">3</option>
+      </select>
+      <h3>Give us your feedback: </h3>
+      <textarea name="feedback" rows="8" cols="80"></textarea>
+      <br>
+      <input type="submit" name="" value="Submit" style="margin-top:15px">
+    </form>
+  </body>
+</html>
